@@ -55,7 +55,7 @@ int show_number(int nb) {
 }
 
 int main(int argc, char** argv) {
-    show_number(-865123);
+    show_number(-5874);
 
     return 0;
 }

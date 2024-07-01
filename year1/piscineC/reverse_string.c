@@ -2,9 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-
-
-
 char* reverse_string(char *str) {
     int length = strlen(str);
     char *reversed_str = malloc(sizeof(char) * (length + 1));
