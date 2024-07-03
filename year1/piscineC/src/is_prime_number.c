@@ -19,7 +19,7 @@ int is_prime_number(int nb) {
     return 1;
 }
 
-int main(int argc, char **argv) {
+int main(void) {
 
     int num = is_prime_number(9);
     printf("%d\n", num);

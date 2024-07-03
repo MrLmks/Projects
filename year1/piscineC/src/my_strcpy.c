@@ -18,7 +18,7 @@ char *my_strcpy(char *dest, char const *src) {
     return save_dest;
 }
 
-int main(int argc, char **argv) { // testing with a random src 
+int main(void) { // testing with a random src 
     char *src = "Hello my friend and Welcome !";
     char *dest = malloc(sizeof(char) * (strlen(src) + 1));
     if (dest == NULL) {

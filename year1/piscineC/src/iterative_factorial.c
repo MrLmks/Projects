@@ -27,7 +27,7 @@ int iterative_factorial(int nb) {
     return result;
 }
 
-int main(int argc, char **argv) {
+int main(void) {
     int factorial = iterative_factorial(20);
     printf("factorial = %d\n", factorial);
     

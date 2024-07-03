@@ -19,7 +19,7 @@ int recursive_power(int nb, int p) {
     return nb * recursive_power(nb, p - 1);
 }
 
-int main(int argc, char **argv) {
+int main(void) {
     int number = 0;
     int power = 0;
 

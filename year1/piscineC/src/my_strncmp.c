@@ -19,7 +19,7 @@ int my_strncmp(char const *s1, char const *s2, int n) {
     return 0;
 }
 
-int main(int argc, char **argv) {
+int main(void) {
     char const *s1 = "He";
     char const *s2 = "Hella";
 
